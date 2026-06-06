@@ -1,0 +1,42 @@
+# isaouz.me — Project Notes
+
+## What is this?
+A personal website and digital garden. A homepage with a bento grid of tiles, each linking to a different topic or page.
+
+## Design
+- Style: Clean & minimal
+- Layout: Bento grid (different tile sizes, like phone widgets)
+- Cards: Background image/photo per tile. Show the title when hovered on it.
+- No navigation bar — homepage tiles are the navigation
+
+## Tech Stack
+- HTML + CSS
+- Bootstrap framework
+- Hosted on GitHub Pages
+- Domains: isaouz.me and isaouz.com
+
+## Pages planned
+- / (homepage with bento grid)
+- /netherlands
+- /cycling
+- /running
+- /music
+- /now (what I'm currently up to)
+
+## Decisions made
+- No blog format — digital garden approach instead
+- Tiles grow over time, nothing needs to be "finished"
+- Some tiles will eventually be widgets (current activity, random quote, etc.)
+
+## Current status
+- [x] Git initialized
+- [x] GitHub repository created
+- [ ] Homepage built
+- [ ] Deployed to GitHub Pages
+- [ ] Domain connected
+
+## Notes & ideas
+- Bento grid tiles can vary in size like tetris blocks
+- One large tile for bio/welcome
+- Future: a "now" tile showing current activity
+- Future: a random quote tile
