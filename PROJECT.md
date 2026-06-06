@@ -6,7 +6,7 @@ A personal website and digital garden. A homepage with a bento grid of tiles, ea
 ## Design
 - Style: Clean & minimal
 - Layout: Bento grid (different tile sizes, like phone widgets)
-- Cards: Background image/photo per tile. Show the title when hovered on it.
+- Cards: Background image/photo per tile. Show the title when hovered on
 - No navigation bar — homepage tiles are the navigation
 
 ## Tech Stack
@@ -18,9 +18,10 @@ A personal website and digital garden. A homepage with a bento grid of tiles, ea
 ## Pages planned
 - / (homepage with bento grid)
 - /netherlands
+- /south-korea
 - /cycling
 - /running
-- /music
+- /bass-guitar
 - /now (what I'm currently up to)
 
 ## Decisions made
@@ -38,5 +39,5 @@ A personal website and digital garden. A homepage with a bento grid of tiles, ea
 ## Notes & ideas
 - Bento grid tiles can vary in size like tetris blocks
 - One large tile for bio/welcome
-- Future: a "now" tile showing current activity
-- Future: a random quote tile
+- Future: a "now" tile showing current activity. Forward to the topic url.
+- Future: a random quote tile or even shower thoughts.
