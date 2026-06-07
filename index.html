@@ -15,79 +15,30 @@
 
 <body>
     <!-- Hero Section -->
-    <div class="container-fluid px-5 pt-5 pb-2">
-        <h1>Isa Ouz</h1>
-        <p>Hello World!<br>Welcome to my corner of the internet.</p>
+    <div class="container-fluid px-5 pt-5 pb-2 hero">
+        <div class="hero-inner">
+            <div>
+                <h1>Isa Ouz</h1>
+                <br>
+                <p>Hello World!<br>Welcome to my corner of the internet.</p>
+                <p>Selamlar selamlar!<br>Sanal alemdeki çöplüğüme hoş geldiniz.</p>
+            </div>
+            <img src="assets/me-funny.jpeg" class="hero-photo" alt="Isa Ouz">
+        </div>
+    </div>
+
+    <div class="container-fluid px-5 py-2 d-flex justify-content-between align-items-center hero">
+        <span class="grid-label">My Digital Garden</span>
+        <button onclick="shuffleGrid()" class="shuffle-btn">Shuffle</button>
     </div>
 
     <div class="container-fluid px-5 pb-4">
-        <div class="bento">
-
-            <a href="netherlands.html" class="tile t1">
-                <img src="https://picsum.photos/seed/netherlands/600/700" alt="Netherlands">
-                <span>Netherlands</span>
-            </a>
-
-            <a href="south-korea.html" class="tile t2">
-                <img src="https://picsum.photos/seed/korea/400/280" alt="South Korea">
-                <span>South Korea</span>
-            </a>
-
-            <a href="cycling.html" class="tile t3">
-                <img src="https://picsum.photos/seed/cycling/400/280" alt="Cycling">
-                <span>Cycling</span>
-            </a>
-
-            <a href="bass-guitar.html" class="tile t4">
-                <img src="https://picsum.photos/seed/guitar/400/600" alt="Bass Guitar">
-                <span>Bass Guitar</span>
-            </a>
-
-            <a href="netherlands-2.html" class="tile t5">
-                <img src="https://picsum.photos/seed/amsterdam/400/220" alt="Netherlands 2">
-                <span>Netherlands 2</span>
-            </a>
-
-            <a href="south-korea-2.html" class="tile t6">
-                <img src="https://picsum.photos/seed/seoul/300/220" alt="South Korea 2">
-                <span>South Korea 2</span>
-            </a>
-
-            <a href="cycling-2.html" class="tile t7">
-                <img src="https://picsum.photos/seed/bike/300/500" alt="Cycling 2">
-                <span>Cycling 2</span>
-            </a>
-
-            <a href="bass-guitar-2.html" class="tile t8">
-                <img src="https://picsum.photos/seed/bass/700/200" alt="Bass Guitar 2">
-                <span>Bass Guitar 2</span>
-            </a>
-
-            <a href="netherlands-3.html" class="tile t9">
-                <img src="https://picsum.photos/seed/dutch/400/200" alt="Netherlands 3">
-                <span>Netherlands 3</span>
-            </a>
-
-            <a href="south-korea-3.html" class="tile t10">
-                <img src="https://picsum.photos/seed/busan/400/200" alt="South Korea 3">
-                <span>South Korea 3</span>
-            </a>
-
-            <a href="cycling-3.html" class="tile t11">
-                <img src="https://picsum.photos/seed/road/400/200" alt="Cycling 3">
-                <span>Cycling 3</span>
-            </a>
-
-            <a href="bass-guitar-3.html" class="tile t12">
-                <img src="https://picsum.photos/seed/music/400/200" alt="Bass Guitar 3">
-                <span>Bass Guitar 3</span>
-            </a>
-
-        </div>
+        <div class="bento"></div>
     </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="tiles.js"></script>
 </body>
 
 </html>

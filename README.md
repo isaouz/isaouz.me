@@ -1,24 +1,28 @@
 # isaouz.me
 
-Personal website and digital garden built with HTML, CSS and Bootstrap.
+Personal website and digital garden. A homepage with a dynamic masonry grid of tiles, each linking to a different topic page.
 
-## Structure
-
-- Homepage with a bento grid of tiles
-- Each tile links to a separate topic page
-- Built mobile-first, deployed via GitHub Pages
+## Features
+- Dynamic CSS Grid masonry layout with weighted random tile sizes
+- Shuffle button to reorder tiles
+- Hover effects revealing tile titles
+- Custom seamless background pattern
+- Bilingual intro (English and Turkish)
+- 12 topic pages and counting
 
 ## Tech stack
-
-- HTML5
-- CSS3 with CSS Grid
-- Bootstrap 5
+- HTML5, CSS3, Vanilla JavaScript
+- Bootstrap 5 for spacing utilities
 - Hosted on GitHub Pages
 
-## Local development
+## Adding new content
+1. Create a new HTML file (e.g. `rotterdam.html`) using an existing page as template
+2. Add one line to the `tiles` array in `tiles.js`
+3. Commit and push
 
+## Local development
 Clone the repository and open `index.html` with Live Server in VS Code.
 
 ## Status
-
-Work in progress. Content is being added gradually.
+Live at https://isaouz.github.io/isaouz.me/
+Work in progress. Content being added gradually.
