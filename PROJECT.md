@@ -32,12 +32,18 @@ A personal website and digital garden. A homepage with a bento grid of tiles, ea
 ## Current status
 - [x] Git initialized
 - [x] GitHub repository created
-- [ ] Homepage built
+- [x] Homepage built with CSS Grid bento layout
+- [x] 12 placeholder pages created
+- [x] Hover effect on tiles
 - [ ] Deployed to GitHub Pages
 - [ ] Domain connected
+- [ ] JS data-driven tiles with auto-fill
+- [ ] Tile randomizer / shuffle button
 
 ## Notes & ideas
 - Bento grid tiles can vary in size like tetris blocks
 - One large tile for bio/welcome
-- Future: a "now" tile showing current activity. Forward to the topic url.
-- Future: a random quote tile or even shower thoughts.
+- Future: JS data-driven approach -- single data file to manage all tiles
+- Future: shuffle button to randomize tile order on each visit
+- Future: a "now" tile showing current activity
+- Future: a random quote tile or shower thoughts
