@@ -8,6 +8,7 @@ Personal website and digital garden. A homepage with a dynamic masonry grid of t
 - Hover effects revealing tile titles
 - Custom seamless background pattern
 - Bilingual intro (English and Turkish)
+- Mobile responsive layout
 - 12 topic pages and counting
 
 ## Tech stack

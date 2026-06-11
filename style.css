@@ -13,16 +13,17 @@
 .hero-inner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .hero-photo {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+    width: 40%;
+    min-width: 200px;
+    max-width: 400px;
+    height: auto;
     border-radius: 12px;
-    margin-left: 40px;
-    flex-shrink: 0;
+    margin-left: 20px; /* or 1.25 rem */
+    flex-shrink: 1;
 }
 
 body {
@@ -118,4 +119,18 @@ body {
     letter-spacing: 0.08em;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .hero-inner {
+        flex-direction: column;
+    }
+
+    .hero-photo {
+        width: 100%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
