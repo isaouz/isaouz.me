@@ -67,6 +67,7 @@ A personal website and digital garden. A homepage with a masonry grid of tiles, 
 - [x] Color palette defined
 - [x] Hero section with photo and bilingual intro
 - [x] Deployed to GitHub Pages
+- [x] Mobile responsive layout
 - [ ] Domain connected
 - [ ] Replace placeholder images with real photos
 - [ ] Write real intro text
@@ -74,8 +75,8 @@ A personal website and digital garden. A homepage with a masonry grid of tiles, 
 - [ ] Eventually organize pages into folders (sports/, travel/, music/)
 
 ## Future ideas
-- sessionStorage to remember shuffle order when using back button
 - A "now" page showing what you're currently up to
 - A random quote or shower thoughts tile
 - Import Medium articles as content pages
 - Weighted randomization already implemented -- adjust sizes array in tiles.js
+- Consider adding more breakpoints if needed for tablet sizes
